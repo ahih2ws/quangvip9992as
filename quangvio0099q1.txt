@@ -36,7 +36,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab4o = MakeTab({Name = "hopsv"})
      local Tab5o = MakeTab({Name = "fram fruit"})
      local Tab6o = MakeTab({Name = " sănbourtycủathànhios"})
-     local Tab7o = MakeTab({Name = " tboy tổng hợp "})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -117,7 +116,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/giahuy2511-coder/Mons
   end
   })
 
-
  AddButton(Tab1o, {
      Name = "banana",
     Callback = function()
@@ -159,13 +157,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanV
   })
 
 AddButton(Tab1o, {
-     Name = "đảo núi lửa",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoNewUpdated.luau"))()
- end
-  })
-
-AddButton(Tab1o, {
      Name = "teeddy fram",
     Callback = function()
 getgenv().Team = "Marines"
@@ -192,7 +183,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/giahuy2511-coder/Mons
  end
   })
 
-AddButton(Tab7o, {
+AddButton(Tab1o, {
      Name = "tboy-tổng-hợp ",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TBoyRoblox727/TBoyRobloxYTB/refs/heads/main/AllScriptBF.txt"))()
